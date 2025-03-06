@@ -1,0 +1,17 @@
+environ:
+environment variables (color, directory, lognam etc)
+example: SHELL=/bin/bash^@COLORTERM=truecolor
+
+limits:
+limitations for different characteristics (max cpu time, max processes, max open files etc)
+example: Limit                     Soft Limit           Hard Limit           Units
+Max cpu time              unlimited            unlimited            seconds
+
+stat:
+pid, state, other information (for example cpu usage)
+example: 5653 (main) S 2936 5653 2936 34816 5653 4194304 145
+
+cmdline:
+command line that was used to start the procces (in my case ./main^@)
+
+stack is empty in my case, but generally should contain information about what functions were called by the process
