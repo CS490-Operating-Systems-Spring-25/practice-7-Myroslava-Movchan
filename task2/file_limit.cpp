@@ -46,4 +46,4 @@ int main() {
     std::cout << "Completed opening " << totalFiles << " files.\n";
     return 0;
 }
-//everything started lagging very bad
+//everything started lagging very bad and multipass broke again
