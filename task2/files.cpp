@@ -23,4 +23,4 @@ int main() {
 
     return 0;
 }
-//it broke multipass, better add sleep mode for some time to make the creation process a little bit slower
+//it broke multipass, better add sleep mode for some time to make the creation process a little bit slower (tried, it works and shows descriptors)
